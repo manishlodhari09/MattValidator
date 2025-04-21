@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "MattValidator"
-  spec.version      = "1.0.3"
+  spec.version      = "1.0.4"
   spec.summary      = "A sample iOS framework with a simple view controller."
 
   spec.description  = <<-DESC

@@ -2,21 +2,15 @@ PODS:
   - MattValidator (1.0.1)
 
 DEPENDENCIES:
-  - MattValidator (from `https://github.com/manishlodhari09/MattValidator.git`, tag `1.0.1`)
+  - MattValidator
 
-EXTERNAL SOURCES:
-  MattValidator:
-    :git: https://github.com/manishlodhari09/MattValidator.git
-    :tag: 1.0.1
-
-CHECKOUT OPTIONS:
-  MattValidator:
-    :git: https://github.com/manishlodhari09/MattValidator.git
-    :tag: 1.0.1
+SPEC REPOS:
+  trunk:
+    - MattValidator
 
 SPEC CHECKSUMS:
   MattValidator: 9ad4db155768999a99f5e45e003bfd1514ebc6b1
 
-PODFILE CHECKSUM: 62e1d56ddb52519b659bf4a378031329b82cab7e
+PODFILE CHECKSUM: e734f4f1ae7780fcf431bf74dd884cbecdc7ed16
 
-COCOAPODS: 1.15.2
+COCOAPODS: 1.16.2

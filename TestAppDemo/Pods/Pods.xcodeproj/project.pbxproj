@@ -289,7 +289,7 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2459C5F235AE426E88E7C396AC7FF896 /* Release */ = {
+		4EF6198BE889CA7FB44EEFB9DED04052 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9E542B716426F85219BD7174EC074523 /* Pods-TestAppDemo.release.xcconfig */;
 			buildSettings = {
@@ -298,6 +298,8 @@
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				IPHONEOS_DEPLOYMENT_TARGET = 15;
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-TestAppDemo/Pods-TestAppDemo.modulemap";
@@ -312,7 +314,37 @@
 			};
 			name = Release;
 		};
-		876F7A976DFE4DC1BBCD224C33F01896 /* Debug */ = {
+		4F9BA842E16470A731A413E8DF7B8ED9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F78B2878A84A748F9D7DBE023BFB8DC9 /* MattValidator.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/MattValidator/MattValidator-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MODULEMAP_FILE = Headers/Public/MattValidator/MattValidator.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = MattValidator;
+				PRODUCT_NAME = MattValidator;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5AE10E95502E3785B1BD8E09804ED705 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3CF2D48C2DF80527721A7BF55F9C0C16 /* Pods-TestAppDemo.debug.xcconfig */;
 			buildSettings = {
@@ -321,6 +353,8 @@
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				IPHONEOS_DEPLOYMENT_TARGET = 15;
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-TestAppDemo/Pods-TestAppDemo.modulemap";
@@ -396,32 +430,6 @@
 			};
 			name = Release;
 		};
-		D5460AB0B64B3B0FA830EE9734C6E185 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F78B2878A84A748F9D7DBE023BFB8DC9 /* MattValidator.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/MattValidator/MattValidator-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				MODULEMAP_FILE = Headers/Public/MattValidator/MattValidator.modulemap;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = MattValidator;
-				PRODUCT_NAME = MattValidator;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 		D5A8A10C73A63CFC28E54D478C38EFF3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -488,7 +496,7 @@
 			};
 			name = Debug;
 		};
-		D9E8C9882C406CEB5D364CD565237FAF /* Debug */ = {
+		F78FE0749253745E1A9F524741696734 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5206EF087AF917C865EB6F4053474D71 /* MattValidator.debug.xcconfig */;
 			buildSettings = {
@@ -496,7 +504,10 @@
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_PREFIX_HEADER = "Target Support Files/MattValidator/MattValidator-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MODULEMAP_FILE = Headers/Public/MattValidator/MattValidator.modulemap;
 				OTHER_LDFLAGS = "";
@@ -508,6 +519,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -519,8 +531,8 @@
 		443DFC14B28C6646A1539226EC733303 /* Build configuration list for PBXNativeTarget "MattValidator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D9E8C9882C406CEB5D364CD565237FAF /* Debug */,
-				D5460AB0B64B3B0FA830EE9734C6E185 /* Release */,
+				F78FE0749253745E1A9F524741696734 /* Debug */,
+				4F9BA842E16470A731A413E8DF7B8ED9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -537,8 +549,8 @@
 		639EA2BDD739CDC32264621B5913D61A /* Build configuration list for PBXNativeTarget "Pods-TestAppDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				876F7A976DFE4DC1BBCD224C33F01896 /* Debug */,
-				2459C5F235AE426E88E7C396AC7FF896 /* Release */,
+				5AE10E95502E3785B1BD8E09804ED705 /* Debug */,
+				4EF6198BE889CA7FB44EEFB9DED04052 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
