@@ -1,0 +1,16 @@
+PODS:
+  - MattValidator (1.0.1)
+
+DEPENDENCIES:
+  - MattValidator (from `../`)
+
+EXTERNAL SOURCES:
+  MattValidator:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MattValidator: 9ad4db155768999a99f5e45e003bfd1514ebc6b1
+
+PODFILE CHECKSUM: 6ea84c70e1d346df31afcd95824b597e53099929
+
+COCOAPODS: 1.15.2

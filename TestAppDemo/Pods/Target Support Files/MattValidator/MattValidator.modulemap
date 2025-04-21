@@ -1,0 +1,6 @@
+module MattValidator {
+  umbrella header "MattValidator-umbrella.h"
+
+  export *
+  module * { export * }
+}
